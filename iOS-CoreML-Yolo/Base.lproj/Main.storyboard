@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iOS_CoreML_Yolo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ys1-mJ-8aQ" customClass="PreviewView" customModule="iOS_CoreML_Yolo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DLn-Rc-7cZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ys1-mJ-8aQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8gN-nu-L1I"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ys1-mJ-8aQ" secondAttribute="bottom" id="AZS-tz-F3M"/>
+                            <constraint firstAttribute="trailing" secondItem="ys1-mJ-8aQ" secondAttribute="trailing" id="GjB-Dv-CI1"/>
+                            <constraint firstItem="DLn-Rc-7cZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Wl8-Cd-h8k"/>
+                            <constraint firstItem="DLn-Rc-7cZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="o3G-mO-3rv"/>
+                            <constraint firstAttribute="trailing" secondItem="DLn-Rc-7cZ" secondAttribute="trailing" id="seI-vd-QGc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DLn-Rc-7cZ" secondAttribute="bottom" id="vNh-hR-z3V"/>
+                            <constraint firstItem="ys1-mJ-8aQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="vxF-UW-cTl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="DLn-Rc-7cZ" id="3bS-qh-fgI"/>
+                        <outlet property="previewView" destination="ys1-mJ-8aQ" id="Cm9-Uw-yF4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
