@@ -47,7 +47,7 @@ If you are interested in creating the Tiny YOLO v1 model on your own, a **step-b
 
 These are the results of the app when tested on iPhone 7. 
 
-<img src="https://github.com/r4ghu/iOS-CoreML-Yolo/blob/master/Screenshots/IMG_0029.PNG" alt="Result 1" width="280"> <img src="https://github.com/r4ghu/iOS-CoreML-Yolo/blob/master/Screenshots/IMG_0030.PNG" alt="Result 1" width="280"> <img src="https://github.com/r4ghu/iOS-CoreML-Yolo/blob/master/Screenshots/IMG_20170710_171328.jpg" alt="Result 1" width="280"> <img src="https://github.com/r4ghu/iOS-CoreML-Yolo/blob/master/Screenshots/IMG_20170710_171336.jpg" alt="Result 1" width="280"> <img src="https://github.com/r4ghu/iOS-CoreML-Yolo/blob/master/Screenshots/IMG_20170710_171359.jpg" alt="Result 1" width="280"> <img src="https://github.com/r4ghu/iOS-CoreML-Yolo/blob/master/Screenshots/IMG_20170710_171433.jpg" alt="Result 1" width="280"> 
+<img src="https://github.com/r4ghu/iOS-CoreML-Yolo/blob/master/Screenshots/IMG_0029.jpg" alt="Result 1" width="280"> <img src="https://github.com/r4ghu/iOS-CoreML-Yolo/blob/master/Screenshots/IMG_0030.jpg" alt="Result 1" width="280"> <img src="https://github.com/r4ghu/iOS-CoreML-Yolo/blob/master/Screenshots/IMG_20170710_171328.jpg" alt="Result 1" width="280"> <img src="https://github.com/r4ghu/iOS-CoreML-Yolo/blob/master/Screenshots/IMG_20170710_171336.jpg" alt="Result 1" width="280"> <img src="https://github.com/r4ghu/iOS-CoreML-Yolo/blob/master/Screenshots/IMG_20170710_171359.jpg" alt="Result 1" width="280"> <img src="https://github.com/r4ghu/iOS-CoreML-Yolo/blob/master/Screenshots/IMG_20170710_171433.jpg" alt="Result 1" width="280"> 
 
 ## Author
 
