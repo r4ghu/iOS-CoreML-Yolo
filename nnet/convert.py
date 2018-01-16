@@ -128,6 +128,7 @@ model_p1p2p3.layers[26].set_weights(model_full.layers[25].get_weights())
 model_p1p2p3.layers[27].set_weights(model_full.layers[26].get_weights())
 model_p1p2p3.layers[29].set_weights(model_full.layers[28].get_weights())
 
+import coremltools
 scale = 2/255.
 coreml_model_p1p2p3 = coremltools.converters.keras.convert(model_p1p2p3,
                                                        input_names = 'image',
