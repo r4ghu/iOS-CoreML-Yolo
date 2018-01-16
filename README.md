@@ -6,9 +6,9 @@ The app fetches image from your camera and perform object detection @ (average) 
 
 ## Requirements
 
-- Xcode 9 
-- iOS 11
-- For training: Python 2.7 (Keras 1.2.2, TensorFlow 1.1, CoreMLTools 0.4.0)
+- Xcode 9 and above
+- iOS 11 and above
+- For training: Python 2.7 (Keras 1.2.2, TensorFlow 1.1, CoreMLTools 0.7)
 
 ## Usage
 
@@ -38,6 +38,11 @@ I also included a jupyter notebook for better understanding the above code. You 
 ```
 (coreml) $ jupyter notebook --allow-root
 ```
+
+## CoreML Model Download [New]
+
+The converted CoreML model can be downloaded here:
+- Google Drive Link: [Download](https://drive.google.com/file/d/1L9wOpoyuCtANjTs1seyKkaoaqfci514K/view?usp=sharing)
 
 ## Tutorial
 
